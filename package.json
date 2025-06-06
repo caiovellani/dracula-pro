@@ -1,0 +1,22 @@
+{
+  "name": "dracula-pro-free",
+  "displayName": "dracula-pro-free",
+  "description": "",
+  "version": "0.0.3",
+  "publisher": "caiovellani",
+  "engines": {
+    "vscode": "^1.9.2"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dracula Pro Free",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-pro-free-color-theme.json"
+      }
+    ]
+  }
+}
