@@ -2,7 +2,7 @@
 
 **Dracula Pro Version** is a sleek, dark theme for Visual Studio Code inspired by the premium Dracula Pro. This free version brings a refined color palette with vibrant highlights, delivering a modern and focused coding experience.
 
-![Dracula Pro Version Screenshot](./screenshot.jpeg)
+![Dracula Pro Version Screenshot](/assets/screenshot.jpeg)
 
 ---
 
