@@ -1,16 +1,44 @@
-# dracula-pro-free README
+# 🧛‍♂️ Dracula Pro Version — VS Code Theme
 
-## Working with Markdown
+**Dracula Pro Version** is a sleek, dark theme for Visual Studio Code inspired by the premium Dracula Pro. This free version brings a refined color palette with vibrant highlights, delivering a modern and focused coding experience.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+![Dracula Pro Version Screenshot](./screenshot.jpeg)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+---
 
-## For more information
+## 🎨 Color Palette
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Designed for clarity, comfort, and contrast. Key colors include:
 
-**Enjoy!**
+| Element           | Color     |
+| ----------------- | --------- |
+| Background        | `#22212C` |
+| Foreground (text) | `#F8F8F2` |
+| Keywords          | `#FF79C6` |
+| Strings           | `#F1FA8C` |
+| Functions         | `#50FA7B` |
+| Comments          | `#6272A4` |
+
+---
+
+## 🚀 Installation
+
+### 1. From the Marketplace
+
+Search for **Dracula Pro Free** in the Extensions panel or install via CLI:
+
+```sh
+code --install-extension caiovellani.dracula-pro-free
+```
+
+### 🛠️ Usage
+
+After installing, open your VS Code settings and select:
+
+```bash
+"workbench.colorTheme": "Dracula Pro Free"
+```
+
+### 👨‍💻 Author
+
+Created with 💜 by Caio Vellani
