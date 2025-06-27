@@ -1,6 +1,44 @@
 {
-  "$schema": "vscode://schemas/color-theme",
+  "name": "Illusion",
   "type": "dark",
+  "author": "Caio Vellani",
+  "maintainers": ["Caio Vellani <caiovellani@outlook.com>"],
+  "draculaprofree": {
+    "base": [
+      "#1E1D22",
+      "#1F1F23",
+      "#F8F8F2",
+      "#44475A",
+      "#5F5076",
+      "#C53788",
+      "#8BE9FD",
+      "#50FA7B",
+      "#FFB86C",
+      "#FF79C6",
+      "#BD93F9",
+      "#FF5555",
+      "#F1FA8C"
+    ],
+    "ansi": [
+      "#1E1D22",
+      "#FF5555",
+      "#50FA7B",
+      "#F1FA8C",
+      "#BD93F9",
+      "#FF79C6",
+      "#8BE9FD",
+      "#F8F8F2",
+      "#5F5076",
+      "#FF6E6E",
+      "#69FF94",
+      "#FFFFA5",
+      "#D6ACFF",
+      "#FF92DF",
+      "#A4FFFF",
+      "#FFFFFF"
+    ]
+  },
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.activeBackground": "#393259",
     "activityBar.activeBorder": "#5C5098",
