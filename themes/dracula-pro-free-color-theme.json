@@ -956,9 +956,7 @@
   "tokenColors": [
     {
       "scope": ["emphasis"],
-      "settings": {
-        "fontStyle": "italic"
-      }
+      "settings": {}
     },
     {
       "scope": ["strong"],
@@ -1006,14 +1004,14 @@
       "scope": ["invalid"],
       "settings": {
         "foreground": "#FF5555",
-        "fontStyle": "underline italic"
+        "fontStyle": "underline"
       }
     },
     {
       "scope": ["invalid.deprecated"],
       "settings": {
         "foreground": "#F8F8F2",
-        "fontStyle": "underline italic"
+        "fontStyle": "underline"
       }
     },
     {
@@ -1052,11 +1050,11 @@
       }
     },
     {
-      "name": "Markup italic",
-      "scope": ["markup.italic"],
+      "name": "Markup",
+      "scope": ["markup"],
       "settings": {
         "foreground": "#F1FA8C",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1101,7 +1099,7 @@
       "scope": ["entity.name.directive.restructuredtext", "markup.quote"],
       "settings": {
         "foreground": "#F1FA8C",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1179,14 +1177,14 @@
       ],
       "settings": {
         "foreground": "#BD93F9",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
       "name": "Inherited classes",
       "scope": ["entity.other.inherited-class"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#8BE9FD"
       }
     },
@@ -1218,7 +1216,7 @@
       "scope": ["comment.block.documentation entity.name.type"],
       "settings": {
         "foreground": "#8BE9FD",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1235,7 +1233,7 @@
       "scope": ["comment.block.documentation variable"],
       "settings": {
         "foreground": "#FFB86C",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1282,7 +1280,7 @@
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#50FA7B",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1313,7 +1311,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#FFB86C"
       }
     },
@@ -1325,7 +1323,7 @@
       ],
       "settings": {
         "foreground": "#50FA7B",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1367,7 +1365,7 @@
       "name": "Language Built-ins support",
       "scope": ["support"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#8BE9FD"
       }
     },
@@ -1495,7 +1493,7 @@
       "name": "YAML aliases",
       "scope": ["variable.other.alias.yaml"],
       "settings": {
-        "fontStyle": "italic underline",
+        "fontStyle": "underline",
         "foreground": "#50FA7B"
       }
     },
@@ -1536,7 +1534,7 @@
         "storage.type.ocaml"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#8BE9FD"
       }
     },
@@ -1678,7 +1676,7 @@
         "meta.variable.assignment.destructured.object.coffee variable"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "",
         "foreground": "#FFB86C"
       }
     },
