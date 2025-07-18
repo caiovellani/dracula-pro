@@ -1,5 +1,5 @@
 {
-  "name": "Illusion",
+  "name": "Dracula Pro Free",
   "type": "dark",
   "author": "Caio Vellani",
   "maintainers": ["Caio Vellani <caiovellani@outlook.com>"],
@@ -43,7 +43,7 @@
     "activityBar.activeBackground": "#393259",
     "activityBar.activeBorder": "#5C5098",
     "activityBar.border": "#000000",
-    "activityBar.background": "#2B2640",
+    "activityBar.background": "#27223a",
     "activityBar.foreground": "#ffffff",
     "activityBar.inactiveForeground": "#7970A9",
     "activityBarBadge.background": "#9580FF",
@@ -66,7 +66,7 @@
     "dropdown.background": "#343746",
     "dropdown.border": "#191a21",
     "dropdown.foreground": "#f8f8f2",
-    "editor.background": "#22212C",
+    "editor.background": "#1f1e29",
     "editor.findMatchBackground": "#ffb86c80",
     "editor.findMatchHighlightBackground": "#ffffff40",
     "editor.findRangeHighlightBackground": "#44475a75",
@@ -92,7 +92,7 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff5555",
     "editorCodeLens.foreground": "#6272a4",
     "editorError.foreground": "#ff5555",
-    "editorGroup.border": "#bd93f9b3",
+    "editorGroup.border": "#bd93f976",
     "editorGroup.dropBackground": "#44475a70",
     "editorGroupHeader.tabsBackground": "#191a21",
     "editorGutter.addedBackground": "#50fa7b80",
@@ -128,7 +128,7 @@
     "extensionButton.prominentBackground": "#50fa7b90",
     "extensionButton.prominentForeground": "#f8f8f2",
     "extensionButton.prominentHoverBackground": "#50fa7b60",
-    "focusBorder": "#bd93f9b3",
+    "focusBorder": "#bd93f9",
     "foreground": "#f8f8f2",
     "gitDecoration.conflictingResourceForeground": "#ffb86c",
     "gitDecoration.deletedResourceForeground": "#ff5555",
@@ -159,8 +159,8 @@
     "listFilterWidget.outline": "#424450",
     "merge.currentHeaderBackground": "#50fa7b90",
     "merge.incomingHeaderBackground": "#bd93f990",
-    "panel.background": "#282a36",
-    "panel.border": "#bd93f9b3",
+    "panel.background": "#1f1e29",
+    "panel.border": "#bd93f976",
     "panelTitle.activeBorder": "#ff79c6",
     "panelTitle.activeForeground": "#f8f8f2",
     "panelTitle.inactiveForeground": "#6272a4",
@@ -212,7 +212,7 @@
     "statusBarItem.remoteBackground": "#424450",
     "statusBarItem.remoteForeground": "#fff",
     "tab.activeBackground": "#282a36",
-    "tab.activeBorderTop": "#9580FF",
+    "tab.activeBorderTop": "#9580ff",
     "tab.activeForeground": "#f8f8f2",
     "tab.border": "#191a21",
     "tab.inactiveBackground": "#21222c",
@@ -233,9 +233,9 @@
     "terminal.ansiRed": "#ff5555",
     "terminal.ansiWhite": "#f8f8f2",
     "terminal.ansiYellow": "#f1fa8c",
-    "terminal.background": "#22212C",
+    "terminal.background": "#1f1e29",
     "terminal.foreground": "#f8f8f2",
-    "titleBar.activeBackground": "#22212C",
+    "titleBar.activeBackground": "#1f1e29",
     "titleBar.activeForeground": "#f8f8f2",
     "titleBar.inactiveBackground": "#191a21",
     "titleBar.inactiveForeground": "#6272a4",
@@ -956,7 +956,9 @@
   "tokenColors": [
     {
       "scope": ["emphasis"],
-      "settings": {}
+      "settings": {
+        "fontStyle": "italic"
+      }
     },
     {
       "scope": ["strong"],
@@ -1004,14 +1006,14 @@
       "scope": ["invalid"],
       "settings": {
         "foreground": "#FF5555",
-        "fontStyle": "underline"
+        "fontStyle": "underline italic"
       }
     },
     {
       "scope": ["invalid.deprecated"],
       "settings": {
         "foreground": "#F8F8F2",
-        "fontStyle": "underline"
+        "fontStyle": "underline italic"
       }
     },
     {
@@ -1050,11 +1052,11 @@
       }
     },
     {
-      "name": "Markup",
-      "scope": ["markup"],
+      "name": "Markup italic",
+      "scope": ["markup.italic"],
       "settings": {
         "foreground": "#F1FA8C",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -1099,7 +1101,7 @@
       "scope": ["entity.name.directive.restructuredtext", "markup.quote"],
       "settings": {
         "foreground": "#F1FA8C",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -1177,14 +1179,14 @@
       ],
       "settings": {
         "foreground": "#BD93F9",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Inherited classes",
       "scope": ["entity.other.inherited-class"],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#8BE9FD"
       }
     },
@@ -1216,7 +1218,7 @@
       "scope": ["comment.block.documentation entity.name.type"],
       "settings": {
         "foreground": "#8BE9FD",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -1233,7 +1235,7 @@
       "scope": ["comment.block.documentation variable"],
       "settings": {
         "foreground": "#FFB86C",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -1280,7 +1282,7 @@
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#50FA7B",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -1311,7 +1313,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#FFB86C"
       }
     },
@@ -1323,7 +1325,7 @@
       ],
       "settings": {
         "foreground": "#50FA7B",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -1365,7 +1367,7 @@
       "name": "Language Built-ins support",
       "scope": ["support"],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#8BE9FD"
       }
     },
@@ -1493,7 +1495,7 @@
       "name": "YAML aliases",
       "scope": ["variable.other.alias.yaml"],
       "settings": {
-        "fontStyle": "underline",
+        "fontStyle": "italic underline",
         "foreground": "#50FA7B"
       }
     },
@@ -1534,7 +1536,7 @@
         "storage.type.ocaml"
       ],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#8BE9FD"
       }
     },
@@ -1676,7 +1678,7 @@
         "meta.variable.assignment.destructured.object.coffee variable"
       ],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#FFB86C"
       }
     },
