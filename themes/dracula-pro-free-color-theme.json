@@ -1,5 +1,5 @@
 {
-  "name": "Dracula Pro Free",
+  "name": "Dracula Pro",
   "type": "dark",
   "author": "Caio Vellani",
   "maintainers": ["Caio Vellani <caiovellani@outlook.com>"],
@@ -40,9 +40,9 @@
   },
   "semanticHighlighting": true,
   "colors": {
-    "activityBar.activeBackground": "#393259",
+    "activityBar.activeBackground": "#39325982",
     "activityBar.activeBorder": "#5C5098",
-    "activityBar.border": "#000000",
+    // "activityBar.border": "#000000",
     "activityBar.background": "#27223a",
     "activityBar.foreground": "#ffffff",
     "activityBar.inactiveForeground": "#7970A9",
