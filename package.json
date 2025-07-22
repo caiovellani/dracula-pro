@@ -18,9 +18,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dracula Pro Free",
+        "label": "Dracula Pro",
         "uiTheme": "vs-dark",
-        "path": "./themes/dracula-pro-free-color-theme.json"
+        "path": "./themes/dracula-pro.json"
+      },
+      {
+        "label": "Dracula Pro Omni",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-pro-omni.json"
+      },
+      {
+        "label": "Dracula Pro Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-pro-black.json"
       }
     ]
   }
