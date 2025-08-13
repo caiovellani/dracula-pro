@@ -83,8 +83,8 @@
     "editor.snippetTabstopHighlightBorder": "#6272a4",
     "editor.wordHighlightBackground": "#8be9fd50",
     "editor.wordHighlightStrongBackground": "#50fa7b50",
-    "editorBracketHighlight.foreground1": "#f8f8f2",
-    "editorBracketHighlight.foreground2": "#ff79c6",
+    "editorBracketHighlight.foreground1": "#fb937e",
+    "editorBracketHighlight.foreground2": "#83f07b",
     "editorBracketHighlight.foreground3": "#8be9fd",
     "editorBracketHighlight.foreground4": "#50fa7b",
     "editorBracketHighlight.foreground5": "#bd93f9",
@@ -1148,7 +1148,7 @@
         "meta.paragraph.markdown punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#F8F8F2"
+        "foreground": "#fb937e"
       }
     },
     {
@@ -1389,7 +1389,7 @@
       "name": "Built-in constants reserved words",
       "scope": ["support.variable"],
       "settings": {
-        "foreground": "#8BE9FD"
+        "foreground": "#BD93F9"
       }
     },
     {
@@ -1452,7 +1452,18 @@
         "string.template punctuation.accessor"
       ],
       "settings": {
-        "foreground": "#F8F8F2"
+        "foreground": "#ff9580"
+      }
+    },
+    {
+      "name": "Parênteses e Chaves",
+      "scope": [
+        "punctuation.parenthesis", // ()
+        "punctuation.bracket", // []
+        "punctuation.brace" // {}
+      ],
+      "settings": {
+        "foreground": "#ff9580" // Cor desejada
       }
     },
     {
@@ -1774,7 +1785,7 @@
         "punctuation.definition.attribute-selector.begin.bracket.square.scss"
       ],
       "settings": {
-        "foreground": "#F8F8F2"
+        "foreground": "#fb937e"
       }
     },
     {
